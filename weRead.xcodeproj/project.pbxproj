@@ -13,6 +13,8 @@
 		61F0F9DB27FD682E0045C145 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F0F9C927FD682D0045C145 /* ContentView.swift */; };
 		61F0F9DC27FD682E0045C145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61F0F9CA27FD682E0045C145 /* Assets.xcassets */; };
 		61F0F9DD27FD682E0045C145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61F0F9CA27FD682E0045C145 /* Assets.xcassets */; };
+		61F0F9E727FD68450045C145 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F0F9E627FD68450045C145 /* WebView.swift */; };
+		61F0F9E827FD68450045C145 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F0F9E627FD68450045C145 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		61F0F9CF27FD682E0045C145 /* weRead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weRead.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61F0F9D527FD682E0045C145 /* weRead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weRead.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61F0F9D727FD682E0045C145 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		61F0F9E627FD68450045C145 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 			children = (
 				61F0F9C827FD682D0045C145 /* weReadApp.swift */,
 				61F0F9C927FD682D0045C145 /* ContentView.swift */,
+				61F0F9E627FD68450045C145 /* WebView.swift */,
 				61F0F9CA27FD682E0045C145 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -176,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61F0F9E727FD68450045C145 /* WebView.swift in Sources */,
 				61F0F9DA27FD682E0045C145 /* ContentView.swift in Sources */,
 				61F0F9D827FD682E0045C145 /* weReadApp.swift in Sources */,
 			);
@@ -185,6 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61F0F9E827FD68450045C145 /* WebView.swift in Sources */,
 				61F0F9DB27FD682E0045C145 /* ContentView.swift in Sources */,
 				61F0F9D927FD682E0045C145 /* weReadApp.swift in Sources */,
 			);

@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    private let url: URL? = URL(string: "https://weread.qq.com/")
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        WebView(data: WebViewData(url: url))
+            .frame(minWidth: 600, minHeight: 400)
+            .preferredColorScheme(.light)
     }
 }
 
